@@ -1,0 +1,12 @@
+[package]
+name = "rbx2nbx"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.104"
+clap = { version = "4.6.7", features = ["derive"] }
+rbx_binary = "3.0.1"
+rbx_dom_weak = "4.2.0"
+rbx_types = "3.1.0"
+rbx_xml = "3.0.1"
